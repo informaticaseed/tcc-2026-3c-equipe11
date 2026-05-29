@@ -1,0 +1,60 @@
+name: Autograding Tests
+'on':
+- push
+- repository_dispatch
+permissions:
+  checks: write
+  actions: read
+  contents: read
+jobs:
+  run-autograding-tests:
+    runs-on: ubuntu-latest
+    if: github.actor != 'github-classroom[bot]'
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+    - name: Backlog preenchido
+      id: backlog-preenchido
+      uses: classroom-resources/autograding-command-grader@v1
+      with:
+        test-name: Backlog preenchido
+        setup-command: pip install pytest
+        command: pytest tests/test_tcc_grupo.py::test_backlog_preenchido -v
+        timeout: 60
+        max-score: 25
+    - name: Grupo trabalhou esta semana
+      id: grupo-trabalhou-esta-semana
+      uses: classroom-resources/autograding-command-grader@v1
+      with:
+        test-name: Grupo trabalhou esta semana
+        setup-command: pip install pytest
+        command: pytest tests/test_tcc_grupo.py::test_issue_aberta_esta_semana -v
+        timeout: 60
+        max-score: 25
+    - name: Participação individual
+      id: participacao-individual
+      uses: classroom-resources/autograding-command-grader@v1
+      with:
+        test-name: Participação individual
+        setup-command: pip install pytest
+        command: pytest tests/test_tcc_grupo.py::test_participacao_individual -v
+        timeout: 60
+        max-score: 25
+    - name: PR semanal entregue
+      id: pr-semanal-entregue
+      uses: classroom-resources/autograding-command-grader@v1
+      with:
+        test-name: PR semanal entregue
+        setup-command: pip install pytest
+        command: pytest tests/test_tcc_grupo.py::test_pr_semanal -v
+        timeout: 60
+        max-score: 25
+    - name: Autograding Reporter
+      uses: classroom-resources/autograding-grading-reporter@v1
+      env:
+        BACKLOG-PREENCHIDO_RESULTS: "${{steps.backlog-preenchido.outputs.result}}"
+        GRUPO-TRABALHOU-ESTA-SEMANA_RESULTS: "${{steps.grupo-trabalhou-esta-semana.outputs.result}}"
+        PARTICIPACAO-INDIVIDUAL_RESULTS: "${{steps.participacao-individual.outputs.result}}"
+        PR-SEMANAL-ENTREGUE_RESULTS: "${{steps.pr-semanal-entregue.outputs.result}}"
+      with:
+        runners: backlog-preenchido,grupo-trabalhou-esta-semana,participacao-individual,pr-semanal-entregue
