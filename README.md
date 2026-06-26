@@ -8,8 +8,6 @@
 | Nome completo | GitHub | Turma |
 |--------------|--------|-------|
 | Pedro  Monteiro do Nascimento | @Pedro | 3C |
-| (nome 2) | @username | 3A |
-| (nome 3) | @username | 3A |
 
 **Tema:** (escreva aqui em 1 frase)
 **Tecnologia:** Python + Flask + SQLite
