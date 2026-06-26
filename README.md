@@ -7,7 +7,7 @@
 
 | Nome completo | GitHub | Turma |
 |--------------|--------|-------|
-| Pedro MOnteiro do Nascimento | @username | 3C |
+| Pedro  Monteiro do Nascimento | @Pedro | 3C |
 | (nome 2) | @username | 3A |
 | (nome 3) | @username | 3A |
 
