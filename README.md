@@ -16,8 +16,7 @@
 
 ## 🎯 O que o sistema faz
 
-(Descreva em 2-3 frases o problema que o sistema resolve e para quem)
-
+O sistema foi desenvolvido para auxiliar estudantes iniciantes no aprendizado de HTML e CSS. A partir de um tema informado pelo usuário, a Inteligência Artificial gera uma página web e explica o código produzido, permitindo que o estudante compreenda a estrutura e o funcionamento da página de forma prática.
 ---
 
 ## 🔄 Como o grupo trabalha toda semana
