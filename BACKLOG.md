@@ -8,7 +8,7 @@
 
 ## 🎯 Objetivo do MVP
 
-(Descreva em 2-3 frases o que o MVP precisa entregar)
+O MVP consiste em um sistema web capaz de receber a descrição de um negócio e gerar automaticamente uma landing page utilizando Inteligência Artificial. O sistema apresentará tanto o código HTML e CSS quanto a pré-visualização da página criada e também terá uma breve explicação do codigo. O objetivo do sistema é ajudar estudantes iniciantes que queiram aprender HTML e CSS
 
 ---
 
