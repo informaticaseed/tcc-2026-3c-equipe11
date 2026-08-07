@@ -9,8 +9,8 @@
 |--------------|--------|-------|
 | Pedro  Monteiro do Nascimento | @Pedro | 3C |
 
-**Tema:** (escreva aqui em 1 frase)
-**Tecnologia:** Python + Flask + SQLite
+**Tema:** Sistema Web para Apoio ao Ensino de HTML e CSS Utilizando Inteligência Artificial
+**Tecnologia:** JavaScript + HTML + CSS + SQLite
 
 ---
 
