@@ -1,7 +1,7 @@
 # Acompanhamento Quinzenal — Prof. Rafael
-**Grupo:** [Nome do Grupo]
-**Turma:** 3A / 3B / 3C
-**Repositório:** [link]
+**Grupo:** Geração de site
+**Turma:** 3C
+
 
 ---
 
@@ -11,9 +11,16 @@
 
 | Integrante | O que se comprometeu a fazer |
 |-----------|------------------------------|
-| (nome 1) | |
-| (nome 2) | |
-| (nome 3) | |
+| Pedro | - banco de dados: CRUD usuário - banckend: explicação do código, CRUD usuário, integração com uma LLM para o bot de explicação - frontend: explicação do código|
+
+Backlog:
+- banco de dados: CRUD usuário
+- banckend: explicação do código, CRUD usuário, login, integração com uma LLM para o bot de explicação
+- frontend: explicação do código
+- relatório: resumo, abstract, introdução, metodologia, referencial teórico, levantamento dos requisitos, diagrama de caso de uso, concursão, bibliografia, anexos, apêndices
+
+Sugestão de BD:
+- SQLite
 
 ### Verificação em 08/08
 
