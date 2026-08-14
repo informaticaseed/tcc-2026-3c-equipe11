@@ -57,3 +57,6 @@ python src/app.py
 # Rodar os testes
 pytest tests/ -v
 ```
+## Atualizações da Semana
+
+- Durante essa semana o Grupo focou mais na parte de pesquisa para o desenvolvimento teórico/escrito do TCC. Foi decidido que vamos começar pela fundamentação teórica no tema Inteligência Artificial
