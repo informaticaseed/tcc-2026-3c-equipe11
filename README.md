@@ -1,13 +1,13 @@
-# TCC 2026 — [Nome do Grupo]
+# TCC 2026 — Sistema Web para Apoio ao Ensino de HTML e CSS Utilizando Inteligência Artificial
 **LTP3 + QP3 · CEMIC 2026 · Prof. Rafael Martins Alves**
 
 ---
 
 ## 👥 Integrantes
 
-| Nome completo | GitHub | Turma |
-|--------------|--------|-------|
-| Pedro  Monteiro do Nascimento | @Pedro | 3C |
+|         Nome completo         | GitHub | Turma |
+|-------------------------------|--------|-------|
+| Pedro  Monteiro do Nascimento | @Pedro |  3C   |
 
 **Tema:** Sistema Web para Apoio ao Ensino de HTML e CSS Utilizando Inteligência Artificial
 **Tecnologia:** JavaScript + HTML + CSS + SQLite
