@@ -14,11 +14,11 @@ O MVP consiste em um sistema web capaz de receber a descrição de um negócio e
 
 ## ✅ Funcionalidades do MVP
 
-| # | Funcionalidade | Prioridade | Status |
-|---|---------------|-----------|--------|
-| 1 | (escreva aqui) | Alta | ⏳ A fazer |
-| 2 | (escreva aqui) | Alta | ⏳ A fazer |
-| 3 | (escreva aqui) | Alta | ⏳ A fazer |
+| # | Funcionalidade | Prioridade |       Status      |
+|---|----------------|------------|-------------------|
+| 1 |      Login    |    Média    |    ⏳ A fazer    |
+| 2 | Banco de Dados|    Média    |    ⏳ A fazer    |
+| 3 |   Explicação  |     Alta    | ⏳ Desenvolvendo |
 | 4 | (escreva aqui) | Média | ⏳ A fazer |
 | 5 | (escreva aqui) | Média | ⏳ A fazer |
 | 6 | (escreva aqui) | Baixa | ⏳ A fazer |
