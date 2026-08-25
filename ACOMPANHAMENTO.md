@@ -41,9 +41,8 @@ Sugestão de BD:
 
 | Integrante | O que se comprometeu a fazer |
 |-----------|------------------------------|
-| (nome 1) | |
-| (nome 2) | |
-| (nome 3) | |
+| Pedro | - Clonar o repositório no computador e enviar os códigos no github - Banco de dados: login do usuário, sugestões utilizar SQLite e utilizar Antigravity no VSCode|
+
 
 ### Verificação em 22/08
 
