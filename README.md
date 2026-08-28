@@ -57,3 +57,7 @@ python src/app.py
 # Rodar os testes
 pytest tests/ -v
 ```
+
+## SEMANA 12
+
+- Estou desenvolvendo o banco de dados para login do usuário 
